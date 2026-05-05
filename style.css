@@ -1,0 +1,168 @@
+/* ===== GEMENSAMT ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* ===== SERVICES ===== */
+body.services {
+    background: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.services .service-box {
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid #ffb347;
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.services .service-box img {
+    max-width: 100%;
+    width: 640px;
+    height: auto;
+    border-radius: 16px;
+    margin-bottom: 24px;
+    border: 1px solid #333;
+}
+
+.services .service-box h1 {
+    margin-bottom: 20px;
+    color: #ffb347;
+}
+
+.services .service-box p {
+    font-size: 1rem;
+    margin: 14px 0;
+    line-height: 1.6;
+}
+
+.services .service-box a {
+    color: #ffb347;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+/* ===== CONTACT ===== */
+body.contact {
+    background-color: #131313;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.contact .contact-box {
+    background: rgba(20, 20, 20, 0.95);
+    border: 1px solid #ffb347;
+    padding: 40px;
+    max-width: 520px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.45);
+}
+
+.contact .contact-box h1 {
+    margin-bottom: 20px;
+    color: #ffb347;
+}
+
+.contact .contact-box p {
+    font-size: 1rem;
+    margin: 14px 0;
+    line-height: 1.6;
+}
+
+.contact .contact-box a {
+    color: #ffb347;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== HOME / INDEX ===== */
+body.home {
+    background-image: url("https://preview.redd.it/post-the-best-cat-memes-you-got-in-the-comments-please-v0-kg82lbnu0ste1.png?auto=webp&s=e6f9eee86484f5de3f4e31f3c33b2d07fb982bd5");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.home .overlay {
+    background: rgba(0, 0, 0, 0.55);
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.home header {
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home nav {
+    margin: 20px 0;
+}
+
+.home nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.home nav a:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.home .hero {
+    margin-top: 80px;
+}
+
+.home .hero h1 {
+    font-size: clamp(3rem, 5vw, 5rem);
+    margin: 0 0 15px;
+}
+
+.home .hero p {
+    font-size: 1.2rem;
+    max-width: 760px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+}
+
+.home .shop-buttons a {
+    margin: 0 10px;
+    padding: 14px 26px;
+    border-radius: 30px;
+    background: #ffb347;
+    color: #222;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.home .shop-buttons a.secondary {
+    background: transparent;
+    border: 1px solid #ffb347;
+    color: #ffb347;
+}
+
+.home footer {
+    margin-top: 80px;
+    font-size: 0.95rem;
+    color: #ddd;
+}
+
